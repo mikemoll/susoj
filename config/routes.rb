@@ -1,4 +1,5 @@
 Susoj::Application.routes.draw do
+  get "pages/index"
   resources :works do
   #->Prelang (voting/acts_as_votable)
   member do
