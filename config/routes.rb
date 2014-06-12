@@ -1,4 +1,6 @@
 Susoj::Application.routes.draw do
+  resources :works
+
   resources :events do
   #->Prelang (voting/acts_as_votable)
   member do
