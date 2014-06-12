@@ -1,4 +1,5 @@
 ActiveAdmin.register Event do
+  permit_params :event_name, :date, :description, :facebook_event, :price
 
   
   # See permitted parameters documentation:
