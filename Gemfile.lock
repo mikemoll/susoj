@@ -223,6 +223,7 @@ DEPENDENCIES
   devise!
   jbuilder (~> 1.2)
   jquery-rails
+  jwt (~> 1.0.0)
   omniauth
   omniauth-facebook
   rails (= 4.0.4)
