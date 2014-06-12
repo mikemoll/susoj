@@ -1,2 +1,24 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<h1>Stand Up Shout Out</h1>
+<h3>Dream with your eyes open.</h3>
+
+<html>
+
+<div class="jumbotron center">
+<h1><font color="red">SUSO</font></h1>
+<p>Driven by a passion to save the world from all its ills and injustices and an innate desire to help young people not unlike himself contribute positively to society Peter Moll founded the youth organisation Stand Up Shout Out on 18th January 2013.
+</p>
+<p>Read more here.</p>
+
+<% if user_signed_in? %>
+# do something 
+<% else %> 
+
+<p> Click here to <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %> Or <%= link_to "Login",  new_user_session_path, class: "btn btn-primary" %></p>
+<% end %>
+</div>
+<a href="https://twitter.com/susoyouth" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @susoyouth</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="standupshoutout" data-columns="" data-expand="true" style="height:600px;width:100%;"><a href="http://www.tintup.com/blog/the-best-twitter-widget" style="width:118px;height:31px;background-color:000; background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">twitter feed embed</a></div>
+</div>
+</body>
+</html>
