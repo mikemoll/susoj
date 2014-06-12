@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  event_name: MyString
+  date: 2014-06-12
+  description: MyText
+  facebook_event: MyString
+  price: MyString
+
+two:
+  event_name: MyString
+  date: 2014-06-12
+  description: MyText
+  facebook_event: MyString
+  price: MyString
