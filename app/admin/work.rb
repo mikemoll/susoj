@@ -1,4 +1,5 @@
 ActiveAdmin.register Work do
+  permit_params :title, :description, :contact, :website
 
   
   # See permitted parameters documentation:
