@@ -8,11 +8,9 @@
 <p>Driven by a passion to save the world from all its ills and injustices and an innate desire to help young people not unlike himself contribute positively to society Peter Moll founded the youth organisation Stand Up Shout Out on 18th January 2013.
 </p>
 <p>Read more here.</p>
-
-<% if user_signed_in? %>
-# do something 
+<% if user_signed_in? %> 
+#SUSO 
 <% else %> 
-
 <p> Click here to <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %> Or <%= link_to "Login",  new_user_session_path, class: "btn btn-primary" %></p>
 <% end %>
 </div>
