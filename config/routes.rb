@@ -1,5 +1,11 @@
 Susoj::Application.routes.draw do
   get "pages/index"
+  get "who_we_are" => "pages#who_we_are"
+  get "news" => "pages#news"
+  get "donate" => "pages#donate"
+  get "galery" => "pages#galery"
+  get "get_involved" => "pages#get_involved"
+ get "contact_us" => "pages#contact_us"
   resources :works do
   #->Prelang (voting/acts_as_votable)
   member do
